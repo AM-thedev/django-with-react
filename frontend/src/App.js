@@ -6,7 +6,6 @@ import Modal from './components/Modal';
 
 
 function App() {
-  const [viewCompleted, setViewCompleted] = useState(false);
   const [activeItem, setActiveItem] = useState({
     title: "",
     artist: "",
